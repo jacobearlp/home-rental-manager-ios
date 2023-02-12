@@ -27,6 +27,19 @@
 		518D24A02995FA2400FB1A1C /* CardViewModelMockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518D249F2995FA2400FB1A1C /* CardViewModelMockData.swift */; };
 		518D24A22995FA3900FB1A1C /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518D24A12995FA3900FB1A1C /* CardViewModel.swift */; };
 		518D24A42995FD2200FB1A1C /* RoundButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518D24A32995FD2200FB1A1C /* RoundButtonView.swift */; };
+		51BC87B4299878DB005DAFE0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BC87B3299878DB005DAFE0 /* HomeView.swift */; };
+		51BC87B6299879FB005DAFE0 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BC87B5299879FB005DAFE0 /* HomeViewModel.swift */; };
+		51BC87B829987A41005DAFE0 /* RentalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BC87B729987A41005DAFE0 /* RentalModel.swift */; };
+		51BC87BA29987B7D005DAFE0 /* HomeMockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BC87B929987B7D005DAFE0 /* HomeMockData.swift */; };
+		51BC87BC29987F25005DAFE0 /* RentalFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BC87BB29987F25005DAFE0 /* RentalFormView.swift */; };
+		51BC87BE29987F9F005DAFE0 /* InputFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BC87BD29987F9F005DAFE0 /* InputFieldView.swift */; };
+		51BC87C12998881D005DAFE0 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 51BC87C02998881D005DAFE0 /* Realm */; };
+		51BC87C32998881D005DAFE0 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 51BC87C22998881D005DAFE0 /* RealmSwift */; };
+		51BC87C529988ACA005DAFE0 /* RentalFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BC87C429988ACA005DAFE0 /* RentalFormViewModel.swift */; };
+		51BC87C729988B7A005DAFE0 /* RentalFormMockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BC87C629988B7A005DAFE0 /* RentalFormMockData.swift */; };
+		51BC87CA29988F7C005DAFE0 /* RentalObjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BC87C929988F7C005DAFE0 /* RentalObjectModel.swift */; };
+		51BC87CC299894CD005DAFE0 /* NSNotification+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BC87CB299894CD005DAFE0 /* NSNotification+Extensions.swift */; };
+		51BC87CE29989D02005DAFE0 /* EditableHomeRentalRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BC87CD29989D02005DAFE0 /* EditableHomeRentalRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +82,17 @@
 		518D249F2995FA2400FB1A1C /* CardViewModelMockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModelMockData.swift; sourceTree = "<group>"; };
 		518D24A12995FA3900FB1A1C /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
 		518D24A32995FD2200FB1A1C /* RoundButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButtonView.swift; sourceTree = "<group>"; };
+		51BC87B3299878DB005DAFE0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		51BC87B5299879FB005DAFE0 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		51BC87B729987A41005DAFE0 /* RentalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalModel.swift; sourceTree = "<group>"; };
+		51BC87B929987B7D005DAFE0 /* HomeMockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMockData.swift; sourceTree = "<group>"; };
+		51BC87BB29987F25005DAFE0 /* RentalFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalFormView.swift; sourceTree = "<group>"; };
+		51BC87BD29987F9F005DAFE0 /* InputFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputFieldView.swift; sourceTree = "<group>"; };
+		51BC87C429988ACA005DAFE0 /* RentalFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalFormViewModel.swift; sourceTree = "<group>"; };
+		51BC87C629988B7A005DAFE0 /* RentalFormMockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalFormMockData.swift; sourceTree = "<group>"; };
+		51BC87C929988F7C005DAFE0 /* RentalObjectModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalObjectModel.swift; sourceTree = "<group>"; };
+		51BC87CB299894CD005DAFE0 /* NSNotification+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSNotification+Extensions.swift"; sourceTree = "<group>"; };
+		51BC87CD29989D02005DAFE0 /* EditableHomeRentalRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableHomeRentalRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +100,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51BC87C32998881D005DAFE0 /* RealmSwift in Frameworks */,
+				51BC87C12998881D005DAFE0 /* Realm in Frameworks */,
 				518D24932995ED0200FB1A1C /* CachedAsyncImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -175,6 +201,8 @@
 			isa = PBXGroup;
 			children = (
 				518D24A12995FA3900FB1A1C /* CardViewModel.swift */,
+				51BC87B5299879FB005DAFE0 /* HomeViewModel.swift */,
+				51BC87C429988ACA005DAFE0 /* RentalFormViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -182,7 +210,9 @@
 		518D24822995DA7E00FB1A1C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				51BC87C829988F68005DAFE0 /* Realm Objects */,
 				518D249C2995F9F900FB1A1C /* CardModel.swift */,
+				51BC87B729987A41005DAFE0 /* RentalModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -192,6 +222,8 @@
 			children = (
 				518D248D2995E45A00FB1A1C /* CardView.swift */,
 				518D248F2995EB7100FB1A1C /* DCCachedAsyncImage.swift */,
+				51BC87CD29989D02005DAFE0 /* EditableHomeRentalRow.swift */,
+				51BC87BD29987F9F005DAFE0 /* InputFieldView.swift */,
 				518D24A32995FD2200FB1A1C /* RoundButtonView.swift */,
 			);
 			path = "Component Views";
@@ -200,7 +232,9 @@
 		518D24842995DADE00FB1A1C /* Main Views */ = {
 			isa = PBXGroup;
 			children = (
+				51BC87B3299878DB005DAFE0 /* HomeView.swift */,
 				518D248A2995DE7900FB1A1C /* MainTabsView.swift */,
+				51BC87BB29987F25005DAFE0 /* RentalFormView.swift */,
 			);
 			path = "Main Views";
 			sourceTree = "<group>";
@@ -216,6 +250,7 @@
 		518D248C2995E03D00FB1A1C /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				51BC87CB299894CD005DAFE0 /* NSNotification+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -241,8 +276,18 @@
 			isa = PBXGroup;
 			children = (
 				518D249F2995FA2400FB1A1C /* CardViewModelMockData.swift */,
+				51BC87C629988B7A005DAFE0 /* RentalFormMockData.swift */,
+				51BC87B929987B7D005DAFE0 /* HomeMockData.swift */,
 			);
 			path = Mocks;
+			sourceTree = "<group>";
+		};
+		51BC87C829988F68005DAFE0 /* Realm Objects */ = {
+			isa = PBXGroup;
+			children = (
+				51BC87C929988F7C005DAFE0 /* RentalObjectModel.swift */,
+			);
+			path = "Realm Objects";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +308,8 @@
 			name = HomeRentalManager;
 			packageProductDependencies = (
 				518D24922995ED0200FB1A1C /* CachedAsyncImage */,
+				51BC87C02998881D005DAFE0 /* Realm */,
+				51BC87C22998881D005DAFE0 /* RealmSwift */,
 			);
 			productName = DogEncyclopedia;
 			productReference = 515499C72995D4CA00A60713 /* HomeRentalManager.app */;
@@ -338,6 +385,7 @@
 			mainGroup = 515499BE2995D4CA00A60713;
 			packageReferences = (
 				518D24912995ED0200FB1A1C /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
+				51BC87BF2998881D005DAFE0 /* XCRemoteSwiftPackageReference "realm-swift" */,
 			);
 			productRefGroup = 515499C82995D4CA00A60713 /* Products */;
 			projectDirPath = "";
@@ -383,18 +431,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				518D249B2995F90400FB1A1C /* ViewGeometry.swift in Sources */,
+				51BC87BA29987B7D005DAFE0 /* HomeMockData.swift in Sources */,
+				51BC87B4299878DB005DAFE0 /* HomeView.swift in Sources */,
 				518D24892995DC8A00FB1A1C /* StartingView.swift in Sources */,
+				51BC87BC29987F25005DAFE0 /* RentalFormView.swift in Sources */,
+				51BC87B829987A41005DAFE0 /* RentalModel.swift in Sources */,
 				518D24982995F42300FB1A1C /* AppColor.swift in Sources */,
 				518D24872995DB8800FB1A1C /* AppDelegate.swift in Sources */,
 				515499CD2995D4CA00A60713 /* ContentView.swift in Sources */,
 				518D24A42995FD2200FB1A1C /* RoundButtonView.swift in Sources */,
+				51BC87C529988ACA005DAFE0 /* RentalFormViewModel.swift in Sources */,
 				518D24902995EB7100FB1A1C /* DCCachedAsyncImage.swift in Sources */,
+				51BC87C729988B7A005DAFE0 /* RentalFormMockData.swift in Sources */,
 				515499CB2995D4CA00A60713 /* HomeRentalManagerApp.swift in Sources */,
+				51BC87CA29988F7C005DAFE0 /* RentalObjectModel.swift in Sources */,
 				518D248E2995E45A00FB1A1C /* CardView.swift in Sources */,
 				518D24A22995FA3900FB1A1C /* CardViewModel.swift in Sources */,
 				518D248B2995DE7900FB1A1C /* MainTabsView.swift in Sources */,
 				518D249D2995F9F900FB1A1C /* CardModel.swift in Sources */,
+				51BC87B6299879FB005DAFE0 /* HomeViewModel.swift in Sources */,
+				51BC87BE29987F9F005DAFE0 /* InputFieldView.swift in Sources */,
+				51BC87CC299894CD005DAFE0 /* NSNotification+Extensions.swift in Sources */,
 				518D24A02995FA2400FB1A1C /* CardViewModelMockData.swift in Sources */,
+				51BC87CE29989D02005DAFE0 /* EditableHomeRentalRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,7 +540,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -535,7 +594,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -567,9 +626,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jacobpotolin.HomeRentalManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -595,9 +657,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jacobpotolin.HomeRentalManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -723,6 +788,14 @@
 				kind = branch;
 			};
 		};
+		51BC87BF2998881D005DAFE0 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 10.5.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -730,6 +803,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 518D24912995ED0200FB1A1C /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */;
 			productName = CachedAsyncImage;
+		};
+		51BC87C02998881D005DAFE0 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 51BC87BF2998881D005DAFE0 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		51BC87C22998881D005DAFE0 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 51BC87BF2998881D005DAFE0 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

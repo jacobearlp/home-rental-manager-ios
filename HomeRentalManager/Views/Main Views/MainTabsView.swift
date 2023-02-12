@@ -9,12 +9,13 @@ import SwiftUI
 
 struct MainTabsView: View {
     @State private var selectedTab = TabType.home
+    @ObservedObject private var homeViewModel = HomeViewModel()
 
     var body: some View {
         TabView(selection: $selectedTab) {
-            VStack {
-                Text("Home")
-            }
+            NavigationView(content: {
+                HomeView(viewModel: homeViewModel)
+            })
             .tabItem { TabType.home.tabView }
             .tag(TabType.home)
 
