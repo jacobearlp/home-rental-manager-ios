@@ -155,8 +155,8 @@
 			isa = PBXGroup;
 			children = (
 				515499C92995D4CA00A60713 /* HomeRentalManager */,
-				515499DA2995D4CB00A60713 /* DogEncyclopediaTests */,
-				515499E42995D4CB00A60713 /* DogEncyclopediaUITests */,
+				515499DA2995D4CB00A60713 /* HomeRentalManagerTests */,
+				515499E42995D4CB00A60713 /* HomeRentalManagerUITests */,
 				515499C82995D4CA00A60713 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -197,21 +197,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		515499DA2995D4CB00A60713 /* DogEncyclopediaTests */ = {
+		515499DA2995D4CB00A60713 /* HomeRentalManagerTests */ = {
 			isa = PBXGroup;
 			children = (
 				515499DB2995D4CB00A60713 /* DogEncyclopediaTests.swift */,
 			);
-			path = DogEncyclopediaTests;
+			path = HomeRentalManagerTests;
 			sourceTree = "<group>";
 		};
-		515499E42995D4CB00A60713 /* DogEncyclopediaUITests */ = {
+		515499E42995D4CB00A60713 /* HomeRentalManagerUITests */ = {
 			isa = PBXGroup;
 			children = (
 				515499E52995D4CB00A60713 /* DogEncyclopediaUITests.swift */,
 				515499E72995D4CB00A60713 /* DogEncyclopediaUITestsLaunchTests.swift */,
 			);
-			path = DogEncyclopediaUITests;
+			path = HomeRentalManagerUITests;
 			sourceTree = "<group>";
 		};
 		518D24802995DA2900FB1A1C /* Views */ = {
