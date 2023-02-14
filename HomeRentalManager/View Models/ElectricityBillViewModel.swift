@@ -13,6 +13,8 @@ class ElectricityBillViewModel: ObservableObject {
     @Published var electricityFormViewModel = ElectricityBillFormViewModel()
 
     @Published var electricityBillList: [ElectricityBillModel] = []
+    @Published var showAlert = false
+    @Published var alertType = AlertType.notImplemented
 
     let rentalModel: RentalModel
 
@@ -60,6 +62,20 @@ class ElectricityBillViewModel: ObservableObject {
         isElectricityFormPresented = true
     }
 
+    private var electricityBillToDelete: ElectricityBillModel?
+    func onDeleteBillPresentConfirmation(electricityModel: ElectricityBillModel) {
+        electricityBillToDelete = electricityModel
+        alertType = .confirmDeleteElectricityBill
+        showAlert = true
+    }
+
+    func alertAction() {
+        if alertType == .confirmDeleteElectricityBill {
+            guard let electricityBillToDelete else { return }
+            deleteBill(electricityModel: electricityBillToDelete)
+        }
+    }
+
     func onReceiveRefreshBillingListNotification() {
         populateElectricityBillList()
     }
@@ -70,6 +86,28 @@ class ElectricityBillViewModel: ObservableObject {
                     .where { $0.renterUUID == rentalModel.uuid }
                     .sorted(by: { $0.billDate  > $1.billDate })
                     .map { ElectricityBillModel(managedObject: $0) }
-        electricityBillList = Array(bills[..<11])
+        let lastIndex = bills.count >= 11 ? 11 : bills.count - 1
+        if lastIndex < 0 {
+             electricityBillList = []
+        } else {
+            electricityBillList = Array(bills[...lastIndex])
+        }
+    }
+
+    private func deleteBill(electricityModel: ElectricityBillModel) {
+        let realm = AppDelegate.realmManager
+        do {
+            let billFromRealm = realm.objects(ElectricityBillObjectModel.self)
+                .where { $0.uuid == electricityModel.uuid }
+                .first
+            if let billFromRealm {
+                try realm.write {
+                    realm.delete(billFromRealm)
+                }
+                populateElectricityBillList()
+            }
+        } catch {
+            print("[ElectricityBillViewModel.onDeleteBill] error: \(error)")
+        }
     }
 }

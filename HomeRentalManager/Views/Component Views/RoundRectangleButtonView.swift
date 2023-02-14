@@ -9,12 +9,13 @@ import SwiftUI
 
 struct RoundRectangleButtonView: View {
     let title: String
+    let color: Color?
     let action: () -> Void
 
     var body: some View {
         Button(action: action) {
             RoundedRectangle(cornerRadius: 8)
-                .fill(.blue)
+                .fill(color ?? .blue)
                 .shadow(color: .gray.opacity(0.5),
                         radius: 15,
                         x: 2,
@@ -34,6 +35,6 @@ struct RoundRectangleButtonView: View {
 
 struct RoundRectangleButtonView_PreviewProvider: PreviewProvider {
     static var previews: some View {
-        RoundRectangleButtonView(title: "Save", action: {})
+        RoundRectangleButtonView(title: "Save", color: nil, action: {})
     }
 }

@@ -33,7 +33,7 @@ struct ElectricityBillFormView: View {
                                textValue: $viewModel.totalAmount,
                                placeHolderText: .constant("100"))
                     .frame(height: 45)
-                    .keyboardType(.numberPad)
+                    .keyboardType(.decimalPad)
 
                 InputFieldView(labelName: "Final Bill Amount",
                                textAlignment: .trailing,
@@ -45,9 +45,9 @@ struct ElectricityBillFormView: View {
                 Spacer()
                     .frame(height: 30)
                 if viewModel.model.isPaid {
-                    RoundRectangleButtonView(title: "Mark as Not Paid", action: viewModel.onMarkAsNotPaid)
+                    RoundRectangleButtonView(title: "Mark as Not Paid", color: nil, action: viewModel.onMarkAsNotPaid)
                 }
-                RoundRectangleButtonView(title: "Save", action: viewModel.onSave)
+                RoundRectangleButtonView(title: "Save", color: nil, action: viewModel.onSave)
                 Spacer()
             }
             .padding(.horizontal, 24)

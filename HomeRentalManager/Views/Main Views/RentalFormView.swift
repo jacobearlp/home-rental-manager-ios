@@ -32,7 +32,7 @@ struct RentalFormView: View {
                                placeHolderText: .constant("Aida Hu"))
                 .frame(height: 45)
 
-                RoundRectangleButtonView(title: "Save", action: viewModel.onSave)
+                RoundRectangleButtonView(title: "Save", color: nil, action: viewModel.onSave)
                     .padding(.top, 30)
             }
             .padding(.horizontal, 24)

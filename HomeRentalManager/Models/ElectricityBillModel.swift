@@ -80,3 +80,5 @@ extension ElectricityBillModel: Persistable {
         return electricityBillObject
     }
 }
+
+extension ElectricityBillModel: Hashable {}

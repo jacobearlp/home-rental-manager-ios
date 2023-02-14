@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51000051299B3E9500BFBC1E /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51000050299B3E9500BFBC1E /* Alerts.swift */; };
 		515499CB2995D4CA00A60713 /* HomeRentalManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515499CA2995D4CA00A60713 /* HomeRentalManagerApp.swift */; };
 		515499CD2995D4CA00A60713 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515499CC2995D4CA00A60713 /* ContentView.swift */; };
 		515499CF2995D4CB00A60713 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515499CE2995D4CB00A60713 /* Assets.xcassets */; };
@@ -73,6 +74,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		51000050299B3E9500BFBC1E /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 		515499C72995D4CA00A60713 /* HomeRentalManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeRentalManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		515499CA2995D4CA00A60713 /* HomeRentalManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRentalManagerApp.swift; sourceTree = "<group>"; };
 		515499CC2995D4CA00A60713 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -304,6 +306,7 @@
 			isa = PBXGroup;
 			children = (
 				518D249A2995F90400FB1A1C /* ViewGeometry.swift */,
+				51000050299B3E9500BFBC1E /* Alerts.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -489,6 +492,7 @@
 				517A9BFE2999D54C00620EBD /* ElectricityBillFormViewModel.swift in Sources */,
 				518D24902995EB7100FB1A1C /* DCCachedAsyncImage.swift in Sources */,
 				517A9BF22999B9D900620EBD /* ElectricityBillView.swift in Sources */,
+				51000051299B3E9500BFBC1E /* Alerts.swift in Sources */,
 				51BC87C729988B7A005DAFE0 /* RentalFormMockData.swift in Sources */,
 				517A9BFC2999D53400620EBD /* ElectricityBillFormMockData.swift in Sources */,
 				515499CB2995D4CA00A60713 /* HomeRentalManagerApp.swift in Sources */,

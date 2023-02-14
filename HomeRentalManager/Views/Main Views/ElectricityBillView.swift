@@ -29,8 +29,9 @@ struct ElectricityBillView: View {
 //            .padding(.horizontal, 24)
 
             // Display message if admin forgot to input new reading
-            SimpleReportView(heading: "Reminder: February 2023 is coming have you got the electricity reading?",
-                             subheading: "Tap to Create",
+            // Humana ba ka og buhat sa bill para sa petsa February 2023?
+            SimpleReportView(heading: "Pahibalo: Humana ba ka og buhat sa bill para sa petsa \(Date.now.monthAndYear())?",
+                             subheading: "+ Pindota kini para magbuhat og bag-o nga bill.",
                              backgroundColor: .orange)
             .onTapGesture(perform: viewModel.presentElectricityForm)
             .padding(.horizontal, 24)
@@ -54,8 +55,8 @@ struct ElectricityBillView: View {
                     .font(.title)
                 Spacer()
             }
-            ForEach(viewModel.electricityBillList.indices) { index in
-                let bill = viewModel.electricityBillList[index]
+
+            ForEach(viewModel.electricityBillList, id: \.self) { bill in
                 VStack {
                     VStack {
                         HStack {
@@ -69,15 +70,19 @@ struct ElectricityBillView: View {
                                 .font(.body)
                                 .foregroundColor(.white)
                             Spacer()
-                            RoundRectangleButtonView(title: "Edit ✏️") {
+                            RoundRectangleButtonView(title: "Edit ✏️", color: nil) {
                                 viewModel.onEditBill(electricityModel: bill)
                             }
                             .frame(width: 80)
+                            RoundRectangleButtonView(title: "Delete 🗑", color: .red) {
+                                viewModel.onDeleteBillPresentConfirmation(electricityModel: bill)
+                            }
+                            .frame(width: 90)
                         }
                         .padding(.top, 20)
 
                         if !bill.isPaid {
-                            RoundRectangleButtonView(title: "Mark as Paid") {
+                            RoundRectangleButtonView(title: "Mark as Paid", color: nil) {
                                 viewModel.markAsPaid(electricityModel: bill)
                             }
                         }
@@ -91,6 +96,9 @@ struct ElectricityBillView: View {
         .padding(.horizontal, 24)
         .onReceive(NotificationCenter.default.publisher(for: NSNotification.refreshElectricityHistory)) { _ in
             viewModel.onReceiveRefreshBillingListNotification()
+        }
+        .alert(isPresented: $viewModel.showAlert) {
+            Alerts.alert(type: viewModel.alertType, action: viewModel.alertAction)
         }
     }
 }
