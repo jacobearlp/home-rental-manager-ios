@@ -26,8 +26,8 @@ class ElectricityBillViewModel: ObservableObject {
     func presentElectricityForm() {
         electricityFormViewModel = ElectricityBillFormViewModel(
             model: ElectricityBillModel(
-                renterUUID: "",
-                previousReading: 0,
+                renterUUID: rentalModel.uuid,
+                previousReading: previousElectricityBill()?.currentReading ?? 0,
                 currentReading: 0,
                 totalReading: 0,
                 billDate: .now),
@@ -109,5 +109,13 @@ class ElectricityBillViewModel: ObservableObject {
         } catch {
             print("[ElectricityBillViewModel.onDeleteBill] error: \(error)")
         }
+    }
+
+    private func previousElectricityBill() -> ElectricityBillModel? {
+        AppDelegate.realmManager.objects(ElectricityBillObjectModel.self)
+            .where { $0.renterUUID == rentalModel.uuid }
+            .sorted { $0.billDate > $1.billDate }
+            .first
+            .map { ElectricityBillModel(managedObject: $0) }
     }
 }
