@@ -20,20 +20,31 @@ struct MainTabsView: View {
             .tag(TabType.home)
 
             VStack {
-                Text("Favorites")
+                Text("Reports")
+                Text("⚠️In Development..⚠️")
             }
-            .tabItem { TabType.favorites.tabView }
-            .tag(TabType.favorites)
+            .tabItem { TabType.reports.tabView }
+            .tag(TabType.reports)
         }
     }
 }
 
 extension MainTabsView {
     enum TabType: String {
-        case home, favorites
+        case home, reports
+
+        var iconName: String {
+            switch self {
+            case .home:
+                return "house"
+            case .reports:
+                return "chart.bar"
+            }
+        }
 
         var tabView: some View {
             VStack {
+                Image(systemName: iconName)
                 Text(rawValue.capitalized)
             }
         }

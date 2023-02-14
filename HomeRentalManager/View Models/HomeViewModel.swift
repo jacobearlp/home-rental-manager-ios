@@ -12,6 +12,8 @@ class HomeViewModel: ObservableObject {
     @Published var rentalList: [RentalModel]
     @Published var presentRentalFormView = false
     @Published var rentalViewFormViewModel = RentalFormViewModel(model: RentalModel(name: "", renterName: ""))
+    @Published var presentElectricityBillView = false
+    @Published var electricityBillViewModel = ElectricityBillViewModel()
 
     init() {
         self.rentalList = []
@@ -37,6 +39,11 @@ class HomeViewModel: ObservableObject {
 
     func refreshHome() {
         onRetrieveRentalList()
+    }
+
+    func openElectricityBillView(rentalModel: RentalModel) {
+        electricityBillViewModel = ElectricityBillViewModel(rentalModel: rentalModel)
+        presentElectricityBillView = true
     }
 
     private func presentRentalForm() {

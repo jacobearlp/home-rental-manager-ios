@@ -32,24 +32,8 @@ struct RentalFormView: View {
                                placeHolderText: .constant("Aida Hu"))
                 .frame(height: 45)
 
-                Button(action: viewModel.onSave) {
-                    RoundedRectangle(cornerRadius: 8)
-                        .fill(.blue)
-                        .shadow(color: .gray.opacity(0.5),
-                                radius: 15,
-                                x: 2,
-                                y: 4)
-                        .overlay(
-                            RoundedRectangle(cornerRadius: 8)
-                                .stroke(.gray.opacity(0.5), lineWidth: 0.25)
-                        )
-                        .overlay(
-                            Text("Save")
-                                .foregroundColor(.white)
-                        )
-                        .frame(height: 45)
-                }
-                .padding(.top, 30)
+                RoundRectangleButtonView(title: "Save", action: viewModel.onSave)
+                    .padding(.top, 30)
             }
             .padding(.horizontal, 24)
         }

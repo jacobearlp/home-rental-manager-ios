@@ -34,7 +34,7 @@ struct CardView: View {
                         .frame(height: 10)
                     HStack {
                         Spacer()
-                        RoundButtonView(iconName: "heart.fill", action: {  })
+                        RoundButtonView(iconName: "heart.fill", iconColor: .teal, action: {  })
                     }
                     .padding(.trailing, 10)
                     Spacer()

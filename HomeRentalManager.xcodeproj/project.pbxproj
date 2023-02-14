@@ -14,6 +14,19 @@
 		515499DC2995D4CB00A60713 /* DogEncyclopediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515499DB2995D4CB00A60713 /* DogEncyclopediaTests.swift */; };
 		515499E62995D4CB00A60713 /* DogEncyclopediaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515499E52995D4CB00A60713 /* DogEncyclopediaUITests.swift */; };
 		515499E82995D4CB00A60713 /* DogEncyclopediaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515499E72995D4CB00A60713 /* DogEncyclopediaUITestsLaunchTests.swift */; };
+		517A9BF22999B9D900620EBD /* ElectricityBillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517A9BF12999B9D900620EBD /* ElectricityBillView.swift */; };
+		517A9BF42999BF1F00620EBD /* SimpleReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517A9BF32999BF1F00620EBD /* SimpleReportView.swift */; };
+		517A9BF62999D48D00620EBD /* ElectricityBillViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517A9BF52999D48D00620EBD /* ElectricityBillViewModel.swift */; };
+		517A9BF82999D4C000620EBD /* ElectricityBillMockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517A9BF72999D4C000620EBD /* ElectricityBillMockData.swift */; };
+		517A9BFA2999D50100620EBD /* ElectricityBillFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517A9BF92999D50100620EBD /* ElectricityBillFormView.swift */; };
+		517A9BFC2999D53400620EBD /* ElectricityBillFormMockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517A9BFB2999D53400620EBD /* ElectricityBillFormMockData.swift */; };
+		517A9BFE2999D54C00620EBD /* ElectricityBillFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517A9BFD2999D54C00620EBD /* ElectricityBillFormViewModel.swift */; };
+		517A9C002999D59100620EBD /* ElectricityBillModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517A9BFF2999D59100620EBD /* ElectricityBillModel.swift */; };
+		517A9C022999D6ED00620EBD /* ElectricityBillObjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517A9C012999D6ED00620EBD /* ElectricityBillObjectModel.swift */; };
+		517A9C042999DC6700620EBD /* InputDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517A9C032999DC6700620EBD /* InputDateView.swift */; };
+		517A9C062999E0C500620EBD /* RoundRectangleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517A9C052999E0C500620EBD /* RoundRectangleButtonView.swift */; };
+		517A9C082999E6E100620EBD /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517A9C072999E6E100620EBD /* Date+Extensions.swift */; };
+		517A9C0A2999F57E00620EBD /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517A9C092999F57E00620EBD /* Double+Extensions.swift */; };
 		518D24872995DB8800FB1A1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518D24862995DB8800FB1A1C /* AppDelegate.swift */; };
 		518D24892995DC8A00FB1A1C /* StartingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518D24882995DC8A00FB1A1C /* StartingView.swift */; };
 		518D248B2995DE7900FB1A1C /* MainTabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518D248A2995DE7900FB1A1C /* MainTabsView.swift */; };
@@ -70,6 +83,19 @@
 		515499E12995D4CB00A60713 /* HomeRentalManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeRentalManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		515499E52995D4CB00A60713 /* DogEncyclopediaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogEncyclopediaUITests.swift; sourceTree = "<group>"; };
 		515499E72995D4CB00A60713 /* DogEncyclopediaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogEncyclopediaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		517A9BF12999B9D900620EBD /* ElectricityBillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectricityBillView.swift; sourceTree = "<group>"; };
+		517A9BF32999BF1F00620EBD /* SimpleReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleReportView.swift; sourceTree = "<group>"; };
+		517A9BF52999D48D00620EBD /* ElectricityBillViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectricityBillViewModel.swift; sourceTree = "<group>"; };
+		517A9BF72999D4C000620EBD /* ElectricityBillMockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectricityBillMockData.swift; sourceTree = "<group>"; };
+		517A9BF92999D50100620EBD /* ElectricityBillFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectricityBillFormView.swift; sourceTree = "<group>"; };
+		517A9BFB2999D53400620EBD /* ElectricityBillFormMockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectricityBillFormMockData.swift; sourceTree = "<group>"; };
+		517A9BFD2999D54C00620EBD /* ElectricityBillFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectricityBillFormViewModel.swift; sourceTree = "<group>"; };
+		517A9BFF2999D59100620EBD /* ElectricityBillModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectricityBillModel.swift; sourceTree = "<group>"; };
+		517A9C012999D6ED00620EBD /* ElectricityBillObjectModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectricityBillObjectModel.swift; sourceTree = "<group>"; };
+		517A9C032999DC6700620EBD /* InputDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputDateView.swift; sourceTree = "<group>"; };
+		517A9C052999E0C500620EBD /* RoundRectangleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundRectangleButtonView.swift; sourceTree = "<group>"; };
+		517A9C072999E6E100620EBD /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		517A9C092999F57E00620EBD /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
 		518D24862995DB8800FB1A1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		518D24882995DC8A00FB1A1C /* StartingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingView.swift; sourceTree = "<group>"; };
 		518D248A2995DE7900FB1A1C /* MainTabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabsView.swift; sourceTree = "<group>"; };
@@ -203,6 +229,8 @@
 				518D24A12995FA3900FB1A1C /* CardViewModel.swift */,
 				51BC87B5299879FB005DAFE0 /* HomeViewModel.swift */,
 				51BC87C429988ACA005DAFE0 /* RentalFormViewModel.swift */,
+				517A9BF52999D48D00620EBD /* ElectricityBillViewModel.swift */,
+				517A9BFD2999D54C00620EBD /* ElectricityBillFormViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -212,6 +240,7 @@
 			children = (
 				51BC87C829988F68005DAFE0 /* Realm Objects */,
 				518D249C2995F9F900FB1A1C /* CardModel.swift */,
+				517A9BFF2999D59100620EBD /* ElectricityBillModel.swift */,
 				51BC87B729987A41005DAFE0 /* RentalModel.swift */,
 			);
 			path = Models;
@@ -225,6 +254,9 @@
 				51BC87CD29989D02005DAFE0 /* EditableHomeRentalRow.swift */,
 				51BC87BD29987F9F005DAFE0 /* InputFieldView.swift */,
 				518D24A32995FD2200FB1A1C /* RoundButtonView.swift */,
+				517A9BF32999BF1F00620EBD /* SimpleReportView.swift */,
+				517A9C032999DC6700620EBD /* InputDateView.swift */,
+				517A9C052999E0C500620EBD /* RoundRectangleButtonView.swift */,
 			);
 			path = "Component Views";
 			sourceTree = "<group>";
@@ -235,6 +267,8 @@
 				51BC87B3299878DB005DAFE0 /* HomeView.swift */,
 				518D248A2995DE7900FB1A1C /* MainTabsView.swift */,
 				51BC87BB29987F25005DAFE0 /* RentalFormView.swift */,
+				517A9BF12999B9D900620EBD /* ElectricityBillView.swift */,
+				517A9BF92999D50100620EBD /* ElectricityBillFormView.swift */,
 			);
 			path = "Main Views";
 			sourceTree = "<group>";
@@ -251,6 +285,8 @@
 			isa = PBXGroup;
 			children = (
 				51BC87CB299894CD005DAFE0 /* NSNotification+Extensions.swift */,
+				517A9C072999E6E100620EBD /* Date+Extensions.swift */,
+				517A9C092999F57E00620EBD /* Double+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -278,6 +314,8 @@
 				518D249F2995FA2400FB1A1C /* CardViewModelMockData.swift */,
 				51BC87C629988B7A005DAFE0 /* RentalFormMockData.swift */,
 				51BC87B929987B7D005DAFE0 /* HomeMockData.swift */,
+				517A9BF72999D4C000620EBD /* ElectricityBillMockData.swift */,
+				517A9BFB2999D53400620EBD /* ElectricityBillFormMockData.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -286,6 +324,7 @@
 			isa = PBXGroup;
 			children = (
 				51BC87C929988F7C005DAFE0 /* RentalObjectModel.swift */,
+				517A9C012999D6ED00620EBD /* ElectricityBillObjectModel.swift */,
 			);
 			path = "Realm Objects";
 			sourceTree = "<group>";
@@ -430,28 +469,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				517A9C0A2999F57E00620EBD /* Double+Extensions.swift in Sources */,
 				518D249B2995F90400FB1A1C /* ViewGeometry.swift in Sources */,
 				51BC87BA29987B7D005DAFE0 /* HomeMockData.swift in Sources */,
 				51BC87B4299878DB005DAFE0 /* HomeView.swift in Sources */,
 				518D24892995DC8A00FB1A1C /* StartingView.swift in Sources */,
 				51BC87BC29987F25005DAFE0 /* RentalFormView.swift in Sources */,
 				51BC87B829987A41005DAFE0 /* RentalModel.swift in Sources */,
+				517A9BFA2999D50100620EBD /* ElectricityBillFormView.swift in Sources */,
 				518D24982995F42300FB1A1C /* AppColor.swift in Sources */,
 				518D24872995DB8800FB1A1C /* AppDelegate.swift in Sources */,
 				515499CD2995D4CA00A60713 /* ContentView.swift in Sources */,
+				517A9C002999D59100620EBD /* ElectricityBillModel.swift in Sources */,
 				518D24A42995FD2200FB1A1C /* RoundButtonView.swift in Sources */,
+				517A9C022999D6ED00620EBD /* ElectricityBillObjectModel.swift in Sources */,
+				517A9BF42999BF1F00620EBD /* SimpleReportView.swift in Sources */,
+				517A9C062999E0C500620EBD /* RoundRectangleButtonView.swift in Sources */,
 				51BC87C529988ACA005DAFE0 /* RentalFormViewModel.swift in Sources */,
+				517A9BFE2999D54C00620EBD /* ElectricityBillFormViewModel.swift in Sources */,
 				518D24902995EB7100FB1A1C /* DCCachedAsyncImage.swift in Sources */,
+				517A9BF22999B9D900620EBD /* ElectricityBillView.swift in Sources */,
 				51BC87C729988B7A005DAFE0 /* RentalFormMockData.swift in Sources */,
+				517A9BFC2999D53400620EBD /* ElectricityBillFormMockData.swift in Sources */,
 				515499CB2995D4CA00A60713 /* HomeRentalManagerApp.swift in Sources */,
+				517A9C042999DC6700620EBD /* InputDateView.swift in Sources */,
+				517A9BF82999D4C000620EBD /* ElectricityBillMockData.swift in Sources */,
 				51BC87CA29988F7C005DAFE0 /* RentalObjectModel.swift in Sources */,
 				518D248E2995E45A00FB1A1C /* CardView.swift in Sources */,
 				518D24A22995FA3900FB1A1C /* CardViewModel.swift in Sources */,
 				518D248B2995DE7900FB1A1C /* MainTabsView.swift in Sources */,
 				518D249D2995F9F900FB1A1C /* CardModel.swift in Sources */,
+				517A9C082999E6E100620EBD /* Date+Extensions.swift in Sources */,
 				51BC87B6299879FB005DAFE0 /* HomeViewModel.swift in Sources */,
 				51BC87BE29987F9F005DAFE0 /* InputFieldView.swift in Sources */,
 				51BC87CC299894CD005DAFE0 /* NSNotification+Extensions.swift in Sources */,
+				517A9BF62999D48D00620EBD /* ElectricityBillViewModel.swift in Sources */,
 				518D24A02995FA2400FB1A1C /* CardViewModelMockData.swift in Sources */,
 				51BC87CE29989D02005DAFE0 /* EditableHomeRentalRow.swift in Sources */,
 			);
@@ -609,9 +661,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HomeRentalManager/Preview Content\"";
+				DEVELOPMENT_TEAM = 755RD5V3ZB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -626,6 +680,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jacobpotolin.HomeRentalManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -640,9 +695,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HomeRentalManager/Preview Content\"";
+				DEVELOPMENT_TEAM = 755RD5V3ZB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -657,6 +714,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jacobpotolin.HomeRentalManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -793,7 +851,7 @@
 			repositoryURL = "https://github.com/realm/realm-swift.git";
 			requirement = {
 				kind = exactVersion;
-				version = 10.5.2;
+				version = 10.19.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

@@ -18,17 +18,22 @@ struct HomeView: View {
                         viewModel.openExistingRentalForm(rentalModel: data)
                     }
                     .onTapGesture {
-                        // TODO: Redirect to billings
-                        // Billings contains electricity payment (sub-metered), rent
+                        viewModel.openElectricityBillView(rentalModel: data)
                     }
                     .padding(.horizontal, 24)
 
                     if data.uuid != viewModel.rentalList.last?.uuid {
                         Rectangle()
                             .fill()
-                            .frame(height: 0.25)
+                            .frame(height: 0.5)
                             .padding(.horizontal, 24)
                     }
+                }
+
+                NavigationLink(isActive: $viewModel.presentElectricityBillView) {
+                    ElectricityBillView(viewModel: viewModel.electricityBillViewModel)
+                } label: {
+                    EmptyView()
                 }
             }
         }

@@ -9,13 +9,14 @@ import SwiftUI
 
 struct RoundButtonView: View {
     let iconName: String
+    let iconColor: Color
     let action: () -> Void
 
     var body: some View {
         Button(action: action) {
             ZStack {
                 Image(systemName: iconName)
-                    .foregroundColor(.teal)
+                    .foregroundColor(iconColor)
             }
             .frame(width: 30, height: 30, alignment: .center)
             .overlay(
@@ -38,7 +39,7 @@ struct RoundButtonView: View {
 
 struct RoundButtonView_PreviewProvider: PreviewProvider {
     static var previews: some View {
-        RoundButtonView(iconName: "heart", action: { })
+        RoundButtonView(iconName: "heart", iconColor: .teal, action: { })
             .frame(width: 30, height: 30, alignment: .center)
     }
 }

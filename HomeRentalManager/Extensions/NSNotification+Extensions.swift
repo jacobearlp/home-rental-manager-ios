@@ -9,4 +9,5 @@ import Foundation
 
 extension NSNotification {
     static let refreshHome = Notification.Name("refreshHome")
+    static let refreshElectricityHistory = Notification.Name("refreshElectricityHistory")
 }

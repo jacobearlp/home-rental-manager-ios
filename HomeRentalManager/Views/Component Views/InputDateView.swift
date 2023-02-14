@@ -1,17 +1,15 @@
 //
-//  InputFieldView.swift
+//  InputDateView.swift
 //  HomeRentalManager
 //
-//  Created by Jacob on 2/12/23.
+//  Created by Jacob on 2/13/23.
 //
 
 import SwiftUI
 
-struct InputFieldView: View {
+struct InputDateView: View {
     var labelName: String
-    var textAlignment: TextAlignment?
-    @Binding var textValue: String
-    @Binding var placeHolderText: String
+    @Binding var dateValue: Date
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 8)
@@ -27,20 +25,16 @@ struct InputFieldView: View {
 
             HStack {
                 Text(labelName)
-                TextField(placeHolderText, text: $textValue)
-                    .font(.subheadline)
-                    .foregroundColor(.black)
-                    .multilineTextAlignment(textAlignment ?? .leading)
+                DatePicker("", selection: $dateValue, displayedComponents: .date)
             }
             .padding(.horizontal, 15)
         }
     }
 }
 
-struct InputFieldView_PreviewProvider: PreviewProvider {
+struct InputDateView_PreviewProvider: PreviewProvider {
     static var previews: some View {
-        InputFieldView(labelName: "Name", textValue: .constant(""), placeHolderText: .constant(""))
+        InputDateView(labelName: "Reading Start Date", dateValue: .constant(Date.now))
             .frame(height: 45)
     }
 }
-
