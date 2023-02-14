@@ -12,9 +12,9 @@
 		515499CD2995D4CA00A60713 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515499CC2995D4CA00A60713 /* ContentView.swift */; };
 		515499CF2995D4CB00A60713 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515499CE2995D4CB00A60713 /* Assets.xcassets */; };
 		515499D22995D4CB00A60713 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515499D12995D4CB00A60713 /* Preview Assets.xcassets */; };
-		515499DC2995D4CB00A60713 /* DogEncyclopediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515499DB2995D4CB00A60713 /* DogEncyclopediaTests.swift */; };
-		515499E62995D4CB00A60713 /* DogEncyclopediaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515499E52995D4CB00A60713 /* DogEncyclopediaUITests.swift */; };
-		515499E82995D4CB00A60713 /* DogEncyclopediaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515499E72995D4CB00A60713 /* DogEncyclopediaUITestsLaunchTests.swift */; };
+		515499DC2995D4CB00A60713 /* HomeRentalManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515499DB2995D4CB00A60713 /* HomeRentalManagerTests.swift */; };
+		515499E62995D4CB00A60713 /* HomeRentalManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515499E52995D4CB00A60713 /* HomeRentalManagerUITests.swift */; };
+		515499E82995D4CB00A60713 /* HomeRentalManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515499E72995D4CB00A60713 /* HomeRentalManagerUITestsLaunchTests.swift */; };
 		517A9BF22999B9D900620EBD /* ElectricityBillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517A9BF12999B9D900620EBD /* ElectricityBillView.swift */; };
 		517A9BF42999BF1F00620EBD /* SimpleReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517A9BF32999BF1F00620EBD /* SimpleReportView.swift */; };
 		517A9BF62999D48D00620EBD /* ElectricityBillViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517A9BF52999D48D00620EBD /* ElectricityBillViewModel.swift */; };
@@ -81,10 +81,10 @@
 		515499CE2995D4CB00A60713 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		515499D12995D4CB00A60713 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		515499D72995D4CB00A60713 /* HomeRentalManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeRentalManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		515499DB2995D4CB00A60713 /* DogEncyclopediaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogEncyclopediaTests.swift; sourceTree = "<group>"; };
+		515499DB2995D4CB00A60713 /* HomeRentalManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRentalManagerTests.swift; sourceTree = "<group>"; };
 		515499E12995D4CB00A60713 /* HomeRentalManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeRentalManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		515499E52995D4CB00A60713 /* DogEncyclopediaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogEncyclopediaUITests.swift; sourceTree = "<group>"; };
-		515499E72995D4CB00A60713 /* DogEncyclopediaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogEncyclopediaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		515499E52995D4CB00A60713 /* HomeRentalManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRentalManagerUITests.swift; sourceTree = "<group>"; };
+		515499E72995D4CB00A60713 /* HomeRentalManagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRentalManagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		517A9BF12999B9D900620EBD /* ElectricityBillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectricityBillView.swift; sourceTree = "<group>"; };
 		517A9BF32999BF1F00620EBD /* SimpleReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleReportView.swift; sourceTree = "<group>"; };
 		517A9BF52999D48D00620EBD /* ElectricityBillViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectricityBillViewModel.swift; sourceTree = "<group>"; };
@@ -200,7 +200,7 @@
 		515499DA2995D4CB00A60713 /* HomeRentalManagerTests */ = {
 			isa = PBXGroup;
 			children = (
-				515499DB2995D4CB00A60713 /* DogEncyclopediaTests.swift */,
+				515499DB2995D4CB00A60713 /* HomeRentalManagerTests.swift */,
 			);
 			path = HomeRentalManagerTests;
 			sourceTree = "<group>";
@@ -208,8 +208,8 @@
 		515499E42995D4CB00A60713 /* HomeRentalManagerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				515499E52995D4CB00A60713 /* DogEncyclopediaUITests.swift */,
-				515499E72995D4CB00A60713 /* DogEncyclopediaUITestsLaunchTests.swift */,
+				515499E52995D4CB00A60713 /* HomeRentalManagerUITests.swift */,
+				515499E72995D4CB00A60713 /* HomeRentalManagerUITestsLaunchTests.swift */,
 			);
 			path = HomeRentalManagerUITests;
 			sourceTree = "<group>";
@@ -517,7 +517,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				515499DC2995D4CB00A60713 /* DogEncyclopediaTests.swift in Sources */,
+				515499DC2995D4CB00A60713 /* HomeRentalManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,8 +525,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				515499E62995D4CB00A60713 /* DogEncyclopediaUITests.swift in Sources */,
-				515499E82995D4CB00A60713 /* DogEncyclopediaUITestsLaunchTests.swift in Sources */,
+				515499E62995D4CB00A60713 /* HomeRentalManagerUITests.swift in Sources */,
+				515499E82995D4CB00A60713 /* HomeRentalManagerUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
